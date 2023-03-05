@@ -1,0 +1,6 @@
+<label class="error-message">{{submitMessage}}</label>
+<form  (ngSubmit)='loginSubmit()'>
+    <input type="text" class="username" matInput [formControl]='username'>
+    <input type="password" class="password" matInput [formControl]='password'>
+    <input type="submit" value="Submit">
+</form>
